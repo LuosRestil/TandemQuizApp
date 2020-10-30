@@ -36,18 +36,28 @@ Visit: https://luosrestil.github.io/TandemQuizApp/
 - Open a terminal window and navigate to the project's directory.
 - Start a local web server and navigate to localhost at the port specified by said web server.
 
-**How do I start a web server?**
+## How do I start a web server?
 
 Depending on what you have installed on your machine, you can do this in several ways:
-_Node_
+
+### Node
+
 Install `http-server` with `npm install -g http-server`, and start the server with `http-server -c-1`.
-_Python3_
+
+### Python3
+
 `python3 -m http.server` (You may need to replace `python3` with `python` depending on your machine's PATH.)
-_Python2_
+
+### Python2
+
 `python -m SimpleHTTPServer`
-_PHP_
+
+### PHP
+
 `php -S localhost:8000`
-_Ruby_
+
+### Ruby
+
 `ruby -run -e httpd . -p 8080`
 
 ## A note to Tandem
