@@ -37,6 +37,7 @@ Visit: https://luosrestil.github.io/TandemQuizApp/
 - Start a local web server and navigate to localhost at the port specified by said web server.
 
 **How do I start a web server?**
+
 Depending on what you have installed on your machine, you can do this in several ways:
 _Node_
 Install `http-server` with `npm install -g http-server`, and start the server with `http-server -c-1`.
